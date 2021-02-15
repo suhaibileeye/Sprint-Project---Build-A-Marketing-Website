@@ -36,6 +36,23 @@ body {
 ol, ul {
 	list-style: none;
 }
+
+li { overflow: hidden;
+background-color: blue;}
+
+
+li {float: right;}
+
+li a {display: block;
+color:white;
+padding: 14px 16px;
+text-decoration: none;
+font-size: large;}
+
+li a:hover{
+  background-color: rgb(31, 31, 22);
+}
+
 blockquote, q {
 	quotes: none;
 }
@@ -72,6 +89,11 @@ h1, h2, h3, h4, h5 {
 
 h2 {
   font-size: 3.2rem;
+  background-color: blue;
+  padding: 6.8px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 20px;
 }
 
 h3 {
@@ -93,7 +115,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    background-color: #fdeaea;
+    background-color: rgb(24, 80, 56);
     justify-content: center;
     padding: 72px;
 }
@@ -105,7 +127,7 @@ p {
 }
 
 .attraction-images h3 {
-    color: black;
+    color: rgb(255, 255, 255);
     text-align: center;
 }
 
@@ -136,3 +158,9 @@ p {
     width: 46%;
       margin-left: 4%;
 }
+
+
+
+
+/* Contact page */
+
